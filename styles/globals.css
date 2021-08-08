@@ -1,0 +1,15 @@
+body{
+  /* background-color: rgb(26, 25, 29); */
+  background-color: black;
+}
+@layer components{
+  .btn{
+    @apply text-white bg-red-600
+    p-3 rounded-md ring-red-700 hover:ring-1  mt-10 
+    font-semibold focus:outline-none active:ring-red-800;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
